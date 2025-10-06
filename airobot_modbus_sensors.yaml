@@ -1,0 +1,189 @@
+- name: Firmware version
+  address: 1000
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  unique_id: "airobot_1000_firmware"
+- name: Extract air temperature
+  unit_of_measurement: °C
+  address: 1001
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1001_extract_air_temp"
+- name: Supply air temperature
+  unit_of_measurement: °C
+  address: 1002
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1002_supply_air_temp"
+- name: Outside air temperature
+  unit_of_measurement: °C
+  address: 1003
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1003_outside_air_temp"
+- name: Exhaust air temperature
+  unit_of_measurement: °C
+  address: 1004
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1004_exhaust_air_temp"
+- name: Extra air temperature
+  unit_of_measurement: °C
+  address: 1005
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1005_extra_air_temp"
+- name: Extract air humidity
+  unit_of_measurement: "%"
+  address: 1006
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1006_extract_air_humidity"
+- name: Supply air humidity
+  unit_of_measurement: "%"
+  address: 1007
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1007_supply_air_humidity"
+- name: Outside air humidity
+  unit_of_measurement: "%"
+  address: 1008
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1008_outside_air_humidity"
+- name: Exhaust air humidity
+  unit_of_measurement: "%"
+  address: 1009
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1009_exhaust_air_humidity"
+- name: Extra air humidity
+  unit_of_measurement: "%"
+  address: 1010
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 0.1
+  precision: 1
+  unique_id: "airobot_1010_extra_air_humidity"
+- name: Carbon dioxide level
+  unit_of_measurement: "ppm"
+  address: 1011
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1011_co2"
+- name: Supply fan level
+  unit_of_measurement: "%"
+  address: 1014
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 10
+  precision: 0
+  unique_id: "airobot_1014_supply_fan_level"
+- name: Extract fan level
+  unit_of_measurement: "%"
+  address: 1015
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  scale: 10
+  precision: 0
+  unique_id: "airobot_1015_extract_fan_level"
+- name: Supply fan speed
+  unit_of_measurement: "RPM"
+  address: 1016
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1016_supply_fan_rpm"
+- name: Extract fan speed
+  unit_of_measurement: "RPM"
+  address: 1017
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1017_extract_fan_rpm"
+- name: Server connected
+  address: 1028
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1028_server_connected"
+- name: VOC Index
+  address: 1029
+  unit_of_measurement: "VOC"
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1029_voc"
+- name: PM2.5
+  address: 1031
+  unit_of_measurement: "μg/m³"
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1031_pm25"
+- name: Heat recovery efficiency
+  address: 1034
+  unit_of_measurement: "%"
+  input_type: input
+  slave: 255
+  data_type: int16
+  scan_interval: 60
+  precision: 0
+  unique_id: "airobot_1034_heat_efficiency"
