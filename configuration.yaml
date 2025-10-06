@@ -1,0 +1,6 @@
+modbus:
+  - name: Airobot
+    type: tcp
+    host: 192.168.20.24
+    port: 502
+    sensors: !include airobot_modbus_sensors.yaml
